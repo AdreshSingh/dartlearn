@@ -1,4 +1,4 @@
-# dartlearn — Example: base.dart
+# Lets Learn Dart
 
 A tiny, self-contained Dart example that demonstrates basic language features: printing to console, variables (dynamic and typed), arithmetic, string interpolation, lists, maps, loops, and functions.
 
