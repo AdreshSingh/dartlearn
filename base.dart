@@ -1,13 +1,19 @@
 void main(){
+  //? basic way of printing on console
   print("Welcom to Dart!!🥳");
+
+  //? way of creating variable
   var myMoney = 20;
   var borrowedMoney = 40;
   var bankMoney = 100;
+
+  //? strong typed variable
   double interest = 2.5;
 
-  // //? String interpolation
+  //? Performing addition
   int totalMoney = myMoney + borrowedMoney;
 
+  //? String interpolation
   print("pocket money ${totalMoney}");
   print("bank money ${bankMoney + totalMoney}");
 
@@ -15,7 +21,8 @@ void main(){
 
   // ? List in dart
   List<String> datas = ["JS",'JAVA','C',"Dart","Flutter","✨"];
-  datas[0] = "JavaScript";
+
+  datas[0] = "JavaScript";                 // ? updating specific index of List
   print(datas);
 
   print(datas[3]);
@@ -26,9 +33,9 @@ void main(){
     "class":"students"
   };
 
-  myMap["class"] = "special students";
-  myMap["langs"] = "C";
-  print(myMap["class"]);
+  myMap["class"] = "special students";    //? updating based on key of Map
+  myMap["langs"] = "C";                   //? adding new key in the Map
+  print(myMap["class"]);                  //? printing specifice item
   print(myMap);
 
   for(int i=0;i<6;i++){
